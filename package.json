@@ -1,0 +1,53 @@
+{
+  "name": "readme-ai",
+  "version": "1.0.0",
+  "description": "Generate beautiful, comprehensive README.md files by analyzing your project. Zero config. Zero API keys. Zero cost.",
+  "main": "lib/index.js",
+  "bin": {
+    "readme-ai": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "readme",
+    "documentation",
+    "generator",
+    "ai",
+    "markdown",
+    "developer-tools",
+    "cli",
+    "docs",
+    "readme-generator",
+    "project-documentation",
+    "auto-readme",
+    "badges",
+    "table-of-contents",
+    "code-analysis",
+    "open-source"
+  ],
+  "author": "Zachary Lyons",
+  "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zacharylyonstx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharylyonstx/readme-ai.git"
+  },
+  "homepage": "https://github.com/zacharylyonstx/readme-ai#readme",
+  "bugs": {
+    "url": "https://github.com/zacharylyonstx/readme-ai/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ]
+}
