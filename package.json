@@ -1,5 +1,5 @@
 {
-  "name": "readme-ai",
+  "name": "@zacharylyonstx/readme-ai",
   "version": "1.0.0",
   "description": "Generate beautiful, comprehensive README.md files by analyzing your project. Zero config. Zero API keys. Zero cost.",
   "main": "lib/index.js",
@@ -49,5 +49,8 @@
     "lib/",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
